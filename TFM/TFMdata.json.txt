@@ -1,0 +1,207 @@
+?([
+    {
+        "Girls": 4,
+        "State": "AL"
+    },
+    {
+        "Girls": 0,
+        "State": "AK"
+    },
+    {
+        "Girls": 38,
+        "State": "AZ"
+    },
+    {
+        "Girls": 5,
+        "State": "AR"
+    },
+    {
+        "Girls": 49,
+        "State": "CA"
+    },
+    {
+        "Girls": 1,
+        "State": "CO"
+    },
+    {
+        "Girls": 1,
+        "State": "CT"
+    },
+    {
+        "Girls": 2,
+        "State": "DE"
+    },
+    {
+        "Girls": 67,
+        "State": "FL"
+    },
+    {
+        "Girls": 6,
+        "State": "GA"
+    },
+    {
+        "Girls": 5,
+        "State": "HI"
+    },
+    {
+        "Girls": 1,
+        "State": "ID"
+    },
+    {
+        "Girls": 2,
+        "State": "IL"
+    },
+    {
+        "Girls": 1,
+        "State": "IN"
+    },
+    {
+        "Girls": 1,
+        "State": "IA"
+    },
+    {
+        "Girls": 3,
+        "State": "KS"
+    },
+    {
+        "Girls": 5,
+        "State": "KY"
+    },
+    {
+        "Girls": 1,
+        "State": "LA"
+    },
+    {
+        "Girls": 1,
+        "State": "ME"
+    },
+    {
+        "Girls": 4,
+        "State": "MD"
+    },
+    {
+        "Girls": 1,
+        "State": "MA"
+    },
+    {
+        "Girls": 3,
+        "State": "MI"
+    },
+    {
+        "Girls": 1,
+        "State": "MN"
+    },
+    {
+        "Girls": 3,
+        "State": "MS"
+    },
+    {
+        "Girls": 1,
+        "State": "MO"
+    },
+    {
+        "Girls": 0,
+        "State": "MT"
+    },
+    {
+        "Girls": 2,
+        "State": "NE"
+    },
+    {
+        "Girls": 3,
+        "State": "NV"
+    },
+    {
+        "Girls": 1,
+        "State": "NH"
+    },
+    {
+        "Girls": 3,
+        "State": "NJ"
+    },
+    {
+        "Girls": 5,
+        "State": "NM"
+    },
+    {
+        "Girls": 7,
+        "State": "NY"
+    },
+    {
+        "Girls": 1,
+        "State": "NC"
+    },
+    {
+        "Girls": 0,
+        "State": "ND"
+    },
+    {
+        "Girls": 6,
+        "State": "OH"
+    },
+    {
+        "Girls": 4,
+        "State": "OK"
+    },
+    {
+        "Girls": 2,
+        "State": "OR"
+    },
+    {
+        "Girls": 5,
+        "State": "PA"
+    },
+    {
+        "Girls": 2,
+        "State": "RI"
+    },
+    {
+        "Girls": 6,
+        "State": "SC"
+    },
+    {
+        "Girls": 0,
+        "State": "SD"
+    },
+    {
+        "Girls": 3,
+        "State": "TN"
+    },
+    {
+        "Girls": 21,
+        "State": "TX"
+    },
+    {
+        "Girls": 1,
+        "State": "UT"
+    },
+    {
+        "Girls": 0,
+        "State": "VT"
+    },
+    {
+        "Girls": 9,
+        "State": "VA"
+    },
+    {
+        "Girls": 5,
+        "State": "WA"
+    },
+    {
+        "Girls": 0,
+        "State": "WV"
+    },
+    {
+        "Girls": 1,
+        "State": "WI"
+    },
+    {
+        "Girls": 0,
+        "State": "WY"
+    },
+    {
+        "Girls": 1,
+        "State": "DC"
+    }
+]);
+ 

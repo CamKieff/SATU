@@ -1,0 +1,281 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>TFM Girls</title>
+
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+		
+		<script type="text/javascript">
+$(function () {
+
+        // Instanciate the map
+        $('#container').highcharts('Map', {
+
+            chart : {
+                borderWidth : 1
+            },
+
+            title : {
+                text : 'Number of TFM Instagram Babes of the Day by State'
+            },
+
+            legend: {
+                layout: 'horizontal',
+                borderWidth: 0,
+                backgroundColor: 'rgba(255,255,255,0.9)',
+                floating: true,
+                verticalAlign: 'top',
+                y: 25
+            },
+
+            mapNavigation: {
+                enabled: true
+            },
+
+            colorAxis: {
+                min: 0,
+		max: 70,
+                type: 'logarithm',
+                minColor: '#FFFFFF',
+                maxColor: '#EE3300',
+		stops:[[0,'#FFFFFF'],
+		 	[.1,'#FFC2B2'],
+			[.25,'#FF8566'],
+			[.5,'#EE3300']
+			]
+            },
+
+            series : [{
+                animation: {
+                    duration: 100
+                },
+                data: 
+[
+    {
+        "value": 4,
+        "code": "AL"
+    },
+    {
+        "value": 0,
+        "code": "AK"
+    },
+    {
+        "value": 38,
+        "code": "AZ"
+    },
+    {
+        "value": 5,
+        "code": "AR"
+    },
+    {
+        "value": 49,
+        "code": "CA"
+    },
+    {
+        "value": 1,
+        "code": "CO"
+    },
+    {
+        "value": 1,
+        "code": "CT"
+    },
+    {
+        "value": 2,
+        "code": "DE"
+    },
+    {
+        "value": 67,
+        "code": "FL"
+    },
+    {
+        "value": 6,
+        "code": "GA"
+    },
+    {
+        "value": 5,
+        "code": "HI"
+    },
+    {
+        "value": 1,
+        "code": "ID"
+    },
+    {
+        "value": 2,
+        "code": "IL"
+    },
+    {
+        "value": 1,
+        "code": "IN"
+    },
+    {
+        "value": 1,
+        "code": "IA"
+    },
+    {
+        "value": 3,
+        "code": "KS"
+    },
+    {
+        "value": 5,
+        "code": "KY"
+    },
+    {
+        "value": 1,
+        "code": "LA"
+    },
+    {
+        "value": 1,
+        "code": "ME"
+    },
+    {
+        "value": 4,
+        "code": "MD"
+    },
+    {
+        "value": 1,
+        "code": "MA"
+    },
+    {
+        "value": 3,
+        "code": "MI"
+    },
+    {
+        "value": 1,
+        "code": "MN"
+    },
+    {
+        "value": 3,
+        "code": "MS"
+    },
+    {
+        "value": 1,
+        "code": "MO"
+    },
+    {
+        "value": 0,
+        "code": "MT"
+    },
+    {
+        "value": 2,
+        "code": "NE"
+    },
+    {
+        "value": 3,
+        "code": "NV"
+    },
+    {
+        "value": 1,
+        "code": "NH"
+    },
+    {
+        "value": 3,
+        "code": "NJ"
+    },
+    {
+        "value": 5,
+        "code": "NM"
+    },
+    {
+        "value": 7,
+        "code": "NY"
+    },
+    {
+        "value": 1,
+        "code": "NC"
+    },
+    {
+        "value": 0,
+        "code": "ND"
+    },
+    {
+        "value": 6,
+        "code": "OH"
+    },
+    {
+        "value": 4,
+        "code": "OK"
+    },
+    {
+        "value": 2,
+        "code": "OR"
+    },
+    {
+        "value": 5,
+        "code": "PA"
+    },
+    {
+        "value": 2,
+        "code": "RI"
+    },
+    {
+        "value": 6,
+        "code": "SC"
+    },
+    {
+        "value": 0,
+        "code": "SD"
+    },
+    {
+        "value": 3,
+        "code": "TN"
+    },
+    {
+        "value": 21,
+        "code": "TX"
+    },
+    {
+        "value": 1,
+        "code": "UT"
+    },
+    {
+        "value": 0,
+        "code": "VT"
+    },
+    {
+        "value": 9,
+        "code": "VA"
+    },
+    {
+        "value": 5,
+        "code": "WA"
+    },
+    {
+        "value": 0,
+        "code": "WV"
+    },
+    {
+        "value": 1,
+        "code": "WI"
+    },
+    {
+        "value": 0,
+        "code": "WY"
+    },
+],
+                mapData: Highcharts.maps['countries/us/us-all'],
+                joinBy: ['postal-code', 'code'],
+                dataLabels: {
+                    enabled: true,
+                    color: 'grey',
+                    format: '{point.code}'
+                },
+                name: 'Number of TFM girls',
+                tooltip: {
+                    pointFormat: '{point.code}: {point.value}'
+                }
+            }]
+        });
+    });
+
+		</script>
+	</head>
+	<body>
+<script src="http://code.highcharts.com/maps/highmaps.js"></script>
+<script src="http://code.highcharts.com/mapdata/countries/us/us-all.js"></script>
+
+
+<div id="container" style="height: 500px; min-width: 310px; max-width: 600px; margin: 0 auto"></div>
+
+	</body>
+</html>
