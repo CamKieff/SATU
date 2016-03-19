@@ -13,4 +13,5 @@ September 6, 2015 | [Home Sweet Home Opener](http://stuffandtheuniverse.tumblr.c
 August 31, 2015 | [Interactive Babes of the Day](http://stuffandtheuniverse.tumblr.com/post/128044434172/interactive-babes-of-the-day) | `TFM`
 August 11, 2015 | [Hallelujah its Raining Bots](http://stuffandtheuniverse.tumblr.com/post/126474389892/hallelujah-its-raining-bots) | _Coming Soon_
 May 29, 2015 | [Computer Skills for Scientists: Integral Tools of the Scientific Process](http://stuffandtheuniverse.tumblr.com/post/128214331477/computer-skills-for-scientists-integral-tools-of) | _NA_
-April 30, 2015 | [Yoou're Only as Old As You Feel](http://stuffandtheuniverse.tumblr.com/post/117806270367/youre-only-as-old-as-you-feel) | _NA_
+May 19, 2015 | [Pretty Girls and Graphs](http://stuffandtheuniverse.tumblr.com/post/119396496012/pretty-girls-and-graphs) | `TFM`
+April 30, 2015 | [You're Only as Old As You Feel](http://stuffandtheuniverse.tumblr.com/post/117806270367/youre-only-as-old-as-you-feel) | _NA_
