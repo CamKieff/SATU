@@ -1,6 +1,6 @@
 require(ggplot2)
 
-top100 <- read.csv("billboardhot100.csv", header = T)
+top100 <- read.csv("GitHub/SATU/Billboard/billboardhot100.csv", header = T)
 
 top100$Date <-
   as.Date(top100$Date, "%m/%d/%Y") #format dates as dates
