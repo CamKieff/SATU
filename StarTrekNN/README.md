@@ -8,3 +8,5 @@ As it's name implies `episodeScrape.py` scrapes the episodes off of the Star Tre
 The network was run using [tensorflow-char-rnn](https://github.com/crazydonkey200/tensorflow-char-rnn), a [Tensorflow](https://www.tensorflow.org/) implementation of Andrej Karpathy's [char-rnn](https://github.com/karpathy/char-rnn). I used the default model parameters for my initial runs. Model is a Long-Short Term Memory (LSTM) network with 2 layers, 128 hidden nodes per layer, 50 training epochs, batch size of 20.  Output temperature defaults to 1, but I also varried it from 0.5 - 1.5.  
 
 It tooks ~24 hours to train the model on my Surface Pro 3 running a virtual LUbuntu environment.  This is probably the least efficient way to train a NN.
+
+A 15,000 character output example at a temperature of 0.7 can be found in `15000char_output.txt`.
